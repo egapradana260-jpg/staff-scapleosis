@@ -2,10 +2,10 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'Scapleois.aternos.me:17760', // GANTI dengan IP server Aternos kamu
+    host: 'Scapleois.aternos.me', // GANTI dengan IP server Aternos kamu
     port: 17760,                         // GANTI dengan Port server Aternos kamu
     username: 'STAFF SCAPLEOSIS',            // Nama bot di Minecraft
-    version: false
+    version: spesifik
   });
 
   bot.on('spawn', () => {
